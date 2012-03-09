@@ -1,0 +1,92 @@
+TPrintingPress
+v7
+r1
+cCheck dependencies
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/English.lproj/MainMenu.xib
+c000000004A26A8410000000000011801
+t1244047425
+s71681
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app
+t1245117547
+s102
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Info.plist
+t1244047832
+s1324
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/PkgInfo
+t1244047832
+s8
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources/English.lproj/MainMenu.nib
+t1244047622
+s17414
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources/no-image.png
+t1245116910
+s19245
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources/printingPress.icns
+t1244046651
+s36067
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources/rounded.booksprintstyle
+t1244046651
+s102
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources/simple.booksprintstyle
+t1244046651
+s102
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/no-image.png
+c000000004A36F9DF0000000000004B2D
+t1245116895
+s19245
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/printingPress.icns
+c000000004A26A4120000000000008CE3
+t1244046354
+s36067
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/rounded.booksprintstyle
+c000000004A1EB6630000000000000088
+t1243526755
+s136
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/simple.booksprintstyle
+c000000004A1EB6630000000000000088
+t1243526755
+s136
+
+NInfo.plist
+c000000004A26A9D50000000000000531
+t1244047829
+s1329
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies282598802#282598802#0(65"[BEROR]error: There is no SDK with the name or path 'macosx10.4'1(4@57"error: There is no SDK with the name or path 'macosx10.4'282598802#18446744073709551615#0#0(1@0"0(0#1#0"28992373579448432#0"0#
+
+CCompileXIB "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/English.lproj/MainMenu.xib"
+r0
+
+CCpResource build/Release/PrintingPress.app/Contents/Resources/no-image.png no-image.png
+r0
+
+CCpResource build/Release/PrintingPress.app/Contents/Resources/printingPress.icns printingPress.icns
+r0
+
+CCpResource build/Release/PrintingPress.app/Contents/Resources/rounded.booksprintstyle rounded.booksprintstyle
+r0
+
+CCpResource build/Release/PrintingPress.app/Contents/Resources/simple.booksprintstyle simple.booksprintstyle
+r0
+
+CProcessInfoPlistFile "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Info.plist" Info.plist
+r0
+
+CTouch "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app"
+r0
+

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PrintingPress' target in the 'PrintingPress' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

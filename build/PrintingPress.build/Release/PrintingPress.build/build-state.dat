@@ -1,0 +1,508 @@
+TPrintingPress
+v7
+r0
+t283680308.686746
+cCheck dependencies
+cProcessInfoPlistFile "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Info.plist" Info.plist
+cCompileXIB "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/English.lproj/MainMenu.xib"
+cCpResource build/Release/PrintingPress.app/Contents/Resources/rounded.booksprintstyle rounded.booksprintstyle
+cCpResource build/Release/PrintingPress.app/Contents/Resources/simple.booksprintstyle simple.booksprintstyle
+cCpResource build/Release/PrintingPress.app/Contents/Resources/printingPress.icns printingPress.icns
+cCpResource build/Release/PrintingPress.app/Contents/Resources/no-image.png no-image.png
+cProcessPCH /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-gmskqmenqtvhuofkwatqpmjtjqtv/PrintingPress_Prefix.pch.gch PrintingPress_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+cProcessPCH /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-attxwsouizurxygxdjkufthcrcqe/PrintingPress_Prefix.pch.gch PrintingPress_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/main.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m" normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/AppDelegate.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/JLMenuItemWithDictionary.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m" normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/JLDarkView.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m" normal i386 objective-c com.apple.compilers.gcc.4_0
+cLd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/PrintingPress" normal i386
+cCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/main.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m" normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/AppDelegate.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/JLMenuItemWithDictionary.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m" normal ppc objective-c com.apple.compilers.gcc.4_0
+cCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/JLDarkView.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m" normal ppc objective-c com.apple.compilers.gcc.4_0
+cLd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/PrintingPress" normal ppc
+cCreateUniversalBinary "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/MacOS/PrintingPress" normal "i386 ppc"
+cGenerateDSYMFile "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app.dSYM" "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/MacOS/PrintingPress"
+cTouch "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app"
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c000000004A1199E200000000000000EE
+t1242667490
+s238
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework/PDFKit
+c000000004A0DE2E3000000000000CF00
+t1242424035
+s52992
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.h
+c00000000459B5C240000000000000396
+t1167809572
+s918
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004AEF73D700000000004E22C0
+t1257206743
+s5120704
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.h
+c000000004A269C5E0000000000000503
+t1244044382
+s1283
+i<Cocoa/Cocoa.h>
+i<WebKit/Webkit.h>
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m
+c000000004A36FC6A0000000000002888
+t1245117546
+s10376
+i"AppDelegate.h"
+i"JLMenuItemWithDictionary.h"
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/English.lproj/MainMenu.xib
+c000000004A26A8410000000000011801
+t1244047425
+s71681
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.h
+c000000004A2680770000000000000062
+t1244037239
+s98
+i<Cocoa/Cocoa.h>
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m
+c000000004A2680EF00000000000000A7
+t1244037359
+s167
+i"JLDarkView.h"
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.h
+c000000004A265EC800000000000001B5
+t1244028616
+s437
+i<Cocoa/Cocoa.h>
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m
+c000000004A2661E80000000000000345
+t1244029416
+s837
+i"JLMenuItemWithDictionary.h"
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/PrintingPress_Prefix.pch
+c000000004A10367A000000000000009D
+t1242576506
+s157
+i<Cocoa/Cocoa.h>
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/AppDelegate.o
+t1260908682
+s38176
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/JLDarkView.o
+t1260908682
+s11840
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/JLMenuItemWithDictionary.o
+t1260908682
+s11748
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/PrintingPress
+t1260908684
+s30132
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/PrintingPress.LinkFileList
+c000000004B27F0850000000000000299
+t1260908677
+s665
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/main.o
+t1260908682
+s4732
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/AppDelegate.o
+t1260908682
+s43372
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/JLDarkView.o
+t1260908683
+s12332
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/JLMenuItemWithDictionary.o
+t1260908683
+s12172
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/PrintingPress
+t1260908684
+s26136
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/PrintingPress.LinkFileList
+c000000004B27F0850000000000000295
+t1260908677
+s661
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/main.o
+t1260908682
+s4900
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app
+t1260909445
+s102
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app.dSYM
+t1260909445
+s102
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Info.plist
+t1260909444
+s1324
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/MacOS/PrintingPress
+t1260909445
+s63000
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/PkgInfo
+t1260909444
+s8
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources/English.lproj/MainMenu.nib
+t1260909445
+s18372
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources/no-image.png
+t1260909444
+s19245
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources/printingPress.icns
+t1260909444
+s36067
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources/rounded.booksprintstyle
+t1260909444
+s102
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources/simple.booksprintstyle
+t1260909444
+s102
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m
+c000000004A140A310000000000000103
+t1242827313
+s259
+i<Cocoa/Cocoa.h>
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/no-image.png
+c000000004A36F9DF0000000000004B2D
+t1245116895
+s19245
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/printingPress.icns
+c000000004A26A4120000000000008CE3
+t1244046354
+s36067
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/rounded.booksprintstyle
+c000000004A1EB6630000000000000088
+t1243526755
+s136
+
+N/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/simple.booksprintstyle
+c000000004A1EB6630000000000000088
+t1243526755
+s136
+
+N/var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-attxwsouizurxygxdjkufthcrcqe/PrintingPress_Prefix.pch.gch
+t1260908681
+s28239376
+
+N/var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-etedldoqicablpetlowqpqavtgbd/PrintingPress_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-fvegbrebwmmjrkbhdvbogffcfsqv/PrintingPress_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-gmskqmenqtvhuofkwatqpmjtjqtv/PrintingPress_Prefix.pch.gch
+t1260908681
+s29906560
+
+NInfo.plist
+c000000004A26A9D50000000000000531
+t1244047829
+s1329
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies283680308#283680308#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/AppDelegate.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_0
+s282601482.123652
+e282601482.493553
+r1
+xCompileC
+xbuild/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/AppDelegate.o
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@98"Compile /Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m282601482#282601482#0(0"0(0#0#90"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m4300885448#2152"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-generated-files.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-own-target-headers.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-all-target-headers.hmap" -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-project-headers.hmap" "-F/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" -F/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/include" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources/i386" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources" -include /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-gmskqmenqtvhuofkwatqpmjtjqtv/PrintingPress_Prefix.pch -c "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m" -o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/AppDelegate.o"0#
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/AppDelegate.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/JLDarkView.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m" normal i386 objective-c com.apple.compilers.gcc.4_0
+s282601482.491033
+e282601482.654132
+r1
+xCompileC
+xbuild/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/JLDarkView.o
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@97"Compile /Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m282601482#282601482#0(0"0(0#0#89"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m4300885448#2150"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-generated-files.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-own-target-headers.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-all-target-headers.hmap" -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-project-headers.hmap" "-F/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" -F/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/include" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources/i386" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources" -include /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-gmskqmenqtvhuofkwatqpmjtjqtv/PrintingPress_Prefix.pch -c "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m" -o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/JLDarkView.o"0#
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/JLDarkView.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/JLMenuItemWithDictionary.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m" normal i386 objective-c com.apple.compilers.gcc.4_0
+s282601482.356903
+e282601482.490926
+r1
+xCompileC
+xbuild/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/JLMenuItemWithDictionary.o
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@111"Compile /Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m282601482#282601482#0(0"0(0#0#103"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m4300885448#2178"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-generated-files.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-own-target-headers.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-all-target-headers.hmap" -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-project-headers.hmap" "-F/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" -F/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/include" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources/i386" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources" -include /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-gmskqmenqtvhuofkwatqpmjtjqtv/PrintingPress_Prefix.pch -c "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m" -o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/JLMenuItemWithDictionary.o"0#
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/JLMenuItemWithDictionary.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/main.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m" normal i386 objective-c com.apple.compilers.gcc.4_0
+s282601482.122638
+e282601482.356799
+r1
+xCompileC
+xbuild/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/main.o
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@91"Compile /Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m282601482#282601482#0(0"0(0#0#83"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m4300885448#2138"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-generated-files.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-own-target-headers.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-all-target-headers.hmap" -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-project-headers.hmap" "-F/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" -F/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/include" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources/i386" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources" -include /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-gmskqmenqtvhuofkwatqpmjtjqtv/PrintingPress_Prefix.pch -c "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m" -o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/main.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/AppDelegate.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_0
+s282601482.686171
+e282601482.915370
+r1
+xCompileC
+xbuild/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/AppDelegate.o
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@98"Compile /Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m282601482#282601482#0(0"0(0#0#90"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m4300885448#2146"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-generated-files.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-own-target-headers.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-all-target-headers.hmap" -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-project-headers.hmap" "-F/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" -F/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/include" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources/ppc" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources" -include /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-attxwsouizurxygxdjkufthcrcqe/PrintingPress_Prefix.pch -c "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m" -o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/AppDelegate.o"0#
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/AppDelegate.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/AppDelegate.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/JLDarkView.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m" normal ppc objective-c com.apple.compilers.gcc.4_0
+s282601483.021802
+e282601483.168795
+r1
+xCompileC
+xbuild/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/JLDarkView.o
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@97"Compile /Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m282601483#282601483#0(0"0(0#0#89"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m4300885448#2144"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-generated-files.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-own-target-headers.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-all-target-headers.hmap" -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-project-headers.hmap" "-F/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" -F/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/include" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources/ppc" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources" -include /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-attxwsouizurxygxdjkufthcrcqe/PrintingPress_Prefix.pch -c "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m" -o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/JLDarkView.o"0#
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/JLDarkView.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLDarkView.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/JLMenuItemWithDictionary.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m" normal ppc objective-c com.apple.compilers.gcc.4_0
+s282601482.915469
+e282601483.021696
+r1
+xCompileC
+xbuild/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/JLMenuItemWithDictionary.o
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@111"Compile /Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m282601482#282601483#0(0"0(0#0#103"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m4300885448#2172"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-generated-files.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-own-target-headers.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-all-target-headers.hmap" -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-project-headers.hmap" "-F/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" -F/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/include" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources/ppc" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources" -include /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-attxwsouizurxygxdjkufthcrcqe/PrintingPress_Prefix.pch -c "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m" -o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/JLMenuItemWithDictionary.o"0#
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/JLMenuItemWithDictionary.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/JLMenuItemWithDictionary.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/main.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m" normal ppc objective-c com.apple.compilers.gcc.4_0
+s282601482.493665
+e282601482.686073
+r1
+xCompileC
+xbuild/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/main.o
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@91"Compile /Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m282601482#282601482#0(0"0(0#0#83"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m4300885448#2132"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-generated-files.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-own-target-headers.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-all-target-headers.hmap" -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-project-headers.hmap" "-F/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" -F/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/include" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources/ppc" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources" -include /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-attxwsouizurxygxdjkufthcrcqe/PrintingPress_Prefix.pch -c "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m" -o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/main.o"0#
+
+CCompileC build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/main.o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/English.lproj/MainMenu.xib"
+s282602244.738002
+e282602245.647260
+r1
+xCompileXIB
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib282602244#282602245#0(0"0(0#0#103"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/English.lproj/MainMenu.xib4300885448#455"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/English.lproj/MainMenu.xib"0#
+
+CCpResource build/Release/PrintingPress.app/Contents/Resources/no-image.png no-image.png
+s282602244.745894
+e282602244.909293
+r1
+xCpResource
+xbuild/Release/PrintingPress.app/Contents/Resources/no-image.png
+xno-image.png
+lSLF07#2@17"Copy no-image.png282602244#282602244#0(0"0(0#0#89"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/no-image.png4300885448#477"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/no-image.png" "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources"0#
+
+CCpResource build/Release/PrintingPress.app/Contents/Resources/printingPress.icns printingPress.icns
+s282602244.744265
+e282602244.915667
+r1
+xCpResource
+xbuild/Release/PrintingPress.app/Contents/Resources/printingPress.icns
+xprintingPress.icns
+lSLF07#2@23"Copy printingPress.icns282602244#282602244#0(0"0(0#0#95"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/printingPress.icns4300885448#483"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/printingPress.icns" "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources"0#
+
+CCpResource build/Release/PrintingPress.app/Contents/Resources/rounded.booksprintstyle rounded.booksprintstyle
+s282602244.738977
+e282602244.934993
+r1
+xCpResource
+xbuild/Release/PrintingPress.app/Contents/Resources/rounded.booksprintstyle
+xrounded.booksprintstyle
+lSLF07#2@28"Copy rounded.booksprintstyle282602244#282602244#0(0"0(0#0#100"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/rounded.booksprintstyle4300885448#488"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/rounded.booksprintstyle" "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources"0#
+
+CCpResource build/Release/PrintingPress.app/Contents/Resources/simple.booksprintstyle simple.booksprintstyle
+s282602244.742697
+e282602244.949362
+r1
+xCpResource
+xbuild/Release/PrintingPress.app/Contents/Resources/simple.booksprintstyle
+xsimple.booksprintstyle
+lSLF07#2@27"Copy simple.booksprintstyle282602244#282602244#0(0"0(0#0#99"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/simple.booksprintstyle4300885448#487"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/simple.booksprintstyle" "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Resources"0#
+
+CCreateUniversalBinary "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/MacOS/PrintingPress" normal "i386 ppc"
+s282602245.648370
+e282602245.651955
+r1
+xCreateUniversalBinary
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/MacOS/PrintingPress
+xnormal
+xi386 ppc
+lSLF07#2@100"CreateUniversalBinary build/Release/PrintingPress.app/Contents/MacOS/PrintingPress normal "i386 ppc"282602245#282602245#0(0"0(0#0#85"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/i386 ppc4300885448#593"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    /usr/bin/lipo -create "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/PrintingPress" "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/PrintingPress" -output "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/MacOS/PrintingPress"0#
+
+CGenerateDSYMFile "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app.dSYM" "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/MacOS/PrintingPress"
+s282602245.652042
+e282602245.668233
+r1
+xGenerateDSYMFile
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app.dSYM
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/MacOS/PrintingPress
+lSLF07#2@114"GenerateDSYMFile build/Release/PrintingPress.app.dSYM build/Release/PrintingPress.app/Contents/MacOS/PrintingPress282602245#282602245#0(0"0(0#0#137"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/MacOS/PrintingPress4300885448#377"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    /Developer/usr/bin/dsymutil "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/MacOS/PrintingPress" -o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app.dSYM"0#
+
+CLd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/PrintingPress" normal i386
+s282601482.654225
+e282601484.978810
+r1
+xLd
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/PrintingPress
+xnormal
+xi386
+lSLF07#2@169"Link /Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/PrintingPress282601482#282601484#0(0"0(0#0#0"4300885448#939"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.4u.sdk "-L/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" "-F/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" -F/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -filelist "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/PrintingPress.LinkFileList" -mmacosx-version-min=10.4 -framework Cocoa -framework WebKit -framework PDFKit -o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/i386/PrintingPress"0#
+
+CLd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/PrintingPress" normal ppc
+s282601483.168882
+e282601484.990776
+r1
+xLd
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/PrintingPress
+xnormal
+xppc
+old: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o
+lSLF07#2@168"Link /Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/PrintingPress282601483#282601484#0(184"ld: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o1(22@170"Object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Developer/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o282601484#0#184#0(6@0"282601484#0#0#0#0#0"0(0#0#0"4300885448#936"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.0 -arch ppc -isysroot /Developer/SDKs/MacOSX10.4u.sdk "-L/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" "-F/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" -F/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks -filelist "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/PrintingPress.LinkFileList" -mmacosx-version-min=10.4 -framework Cocoa -framework WebKit -framework PDFKit -o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/Objects-normal/ppc/PrintingPress"0#
+
+CProcessInfoPlistFile "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Info.plist" Info.plist
+s282602244.715155
+e282602244.737878
+r1
+xProcessInfoPlistFile
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist282602244#282602244#0(0"0(0#0#87"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/Info.plist4300885448#438"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-attxwsouizurxygxdjkufthcrcqe/PrintingPress_Prefix.pch.gch PrintingPress_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_0
+s282601477.624146
+e282601481.918831
+r1
+xProcessPCH
+x/var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-attxwsouizurxygxdjkufthcrcqe/PrintingPress_Prefix.pch.gch
+xPrintingPress_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@35"Precompile PrintingPress_Prefix.pch282601477#282601481#0(0"0(0#0#101"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/PrintingPress_Prefix.pch4300885448#1993"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-generated-files.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-own-target-headers.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-all-target-headers.hmap" -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-project-headers.hmap" "-F/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" -F/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/include" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources/ppc" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources" -c "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/PrintingPress_Prefix.pch" -o /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-attxwsouizurxygxdjkufthcrcqe/PrintingPress_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-etedldoqicablpetlowqpqavtgbd/PrintingPress_Prefix.pch.gch PrintingPress_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-fvegbrebwmmjrkbhdvbogffcfsqv/PrintingPress_Prefix.pch.gch PrintingPress_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-gmskqmenqtvhuofkwatqpmjtjqtv/PrintingPress_Prefix.pch.gch PrintingPress_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s282601477.512525
+e282601482.122533
+r1
+xProcessPCH
+x/var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-gmskqmenqtvhuofkwatqpmjtjqtv/PrintingPress_Prefix.pch.gch
+xPrintingPress_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@35"Precompile PrintingPress_Prefix.pch282601477#282601482#0(0"0(0#0#101"/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/PrintingPress_Prefix.pch8237135891347629056#1998"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-generated-files.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-own-target-headers.hmap" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-all-target-headers.hmap" -iquote "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/PrintingPress-project-headers.hmap" "-F/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release" -F/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/include" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources/i386" "-I/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/PrintingPress.build/Release/PrintingPress.build/DerivedSources" -c "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/PrintingPress_Prefix.pch" -o /var/folders/Fw/FwPZVR+TE2eD6DyBq8rBz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PrintingPress_Prefix-gmskqmenqtvhuofkwatqpmjtjqtv/PrintingPress_Prefix.pch.gch0#
+
+CTouch "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app"
+s282602245.668328
+e282602245.671168
+r1
+xTouch
+x/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app
+lSLF07#2@114"Touch /Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app282602245#282602245#0(0"0(0#0#0"4300885448#219"    cd "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress"    /usr/bin/touch -c "/Users/joeylange/Documents/Design Work/Projects/Audacious Code/PrintingPress/build/Release/PrintingPress.app"0#
+
